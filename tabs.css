@@ -1,0 +1,127 @@
+ 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    
+    background-color: #ddd;
+}
+
+/* Android 2.3 :checked fix */
+@keyframes fake {
+    from {
+        opacity: 1;
+    }
+    to {
+        opactity: 1
+    }
+}
+body {        
+    animation: fake 1s infinite;
+}
+
+label {
+    font-weight: normal;
+}
+
+
+
+.radio-tabs h6 {
+    color: #702b36;
+    font-size: 2em;
+    font-family: 'Martel Sans';
+}
+
+.radio-tabs h5 {
+    font-size: 4em;
+    color: #702b36;
+    
+}
+
+
+
+.radio-tabs li, p {
+    font-size: 1.5em;
+    font-family:'Fira Sans Regular' ;
+}
+
+.radio-tabs {
+    margin: 3vmax;
+
+}
+
+.radio-tabs .state {
+    position: absolute;
+    left: -10000px;
+}
+
+.tabs { 
+    font-size: 2em; 
+
+ }
+
+
+
+
+.radio-tabs .tab {
+    display: inline-block;
+    padding: .5em;
+    vertical-align: top;
+    color: #702b36 ;
+    cursor: hand;
+    cursor: pointer;
+}
+.radio-tabs .tab:hover {
+    background-color: #eee;
+}
+
+#su:checked ~ .tabs #su-tab,
+#mc:checked ~ .tabs #mc-tab
+ {
+    background-color: #b7c1c2;
+    border-bottom: .3em solid #fff;
+    cursor: default;
+}
+
+.radio-tabs .panels {
+    background-color: #fff;
+    padding: .5em;
+
+
+}
+.radio-tabs .panel {
+    display: none;
+}
+
+
+
+#su:checked ~ .panels #su-panel,
+#mc:checked ~ .panels #mc-panel{
+    display: block;
+}
+
+
+
+
+
+/*work and skills*/
+
+#teltek:checked ~ .tabs #teltek-tab,
+#stevenson:checked ~ .tabs #stevenson-tab,
+#wmx:checked ~ .tabs #wmx-tab
+ {
+    background-color: #b7c1c2;
+    border-bottom: .3em solid #fff;
+    cursor: default;
+}
+
+#teltek:checked ~ .panels #teltek-panel,
+#stevenson:checked ~ .panels #stevenson-panel,
+#wmx:checked ~ .panels #webmechanix-panel{
+    display: block;
+}
+
+
+
+
+
+

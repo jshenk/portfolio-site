@@ -1,0 +1,458 @@
+
+body {
+	/*background: #b7b1c2;*/
+}
+
+hr {
+	margin: 4vmax 0 4vmax 0;
+}
+
+h1, h2 {
+	font-family: 'Martel Sans';
+}
+
+p {
+	font-family: 'Fira Sans';
+	font-size: 1.5em;
+}
+h2 {
+    color: #3e2232;
+}
+
+
+
+.title h1 {
+	text-align: center;
+	font-size: 6em;
+	padding: 12vmax;
+}
+
+.aboutme-page p {
+	font-family: 'Fira Sans';
+	
+	
+}
+
+.pad {
+	margin-top: 2vmax;
+}
+
+
+
+
+
+.portfolio-page h1 {
+	font-size: 5em;
+	padding: 15vmax 0 0 0;
+	margin-left: 2vmax;
+	font-weight: 100;
+}
+
+
+
+.aboutme-page h1 {
+	font-size: 5em;
+	padding: 15vmax 0 0 0;
+	margin-left: 2vmax;
+	font-weight: 100;
+
+}
+
+.aboutme-page h2 {
+	font-size: 3em;
+	color: rgba(62,34,50,1);
+	margin-top: 0;
+}
+
+.skills-page h1 {
+	font-size: 5em;
+	padding: 15vmax 0 0 0;
+	margin-left: 2vmax;
+	font-weight: 100;
+}
+
+.skills-page {
+	background-color: #fff;
+	font-family: 'Martel Sans';
+
+}
+
+.navimg {
+	width: 100%;
+	overflow: hidden;
+
+}
+.port-container {
+	margin-top: 5vmax;
+	margin-bottom: 5vmax;
+	
+} 
+
+.port-container img {
+	margin: auto;
+
+}
+
+.port-container h2 {
+	border-bottom: 1px solid;
+	padding: 0 0 1vmax 0;
+
+}
+
+.btn-purple {
+	/*background-color:  rgba(62,34,50,.6);*/
+	background-color: #404350;
+	color: #fff;
+}
+
+.btn-purple:hover {
+	background-color: 
+}
+
+.btn:hover{
+	background-color: rgba(64,67,80, .8) ;
+	color: #fff;
+}
+
+
+
+
+
+.navimg-container {
+	background-color: #d6a771;
+	/*background-color: #3d2232;*/
+	/*background-color: #404350;*/
+}
+.navimg-container, .port-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.header-img-home {
+	background-image: url('photo/coffee.jpg');
+	background-position: 45% 54%;
+}
+
+.header-img-about {
+	background-image: url('photo/jenna5.jpg');
+	background-size: cover;
+	background-position: 50% 60%;
+}
+
+.header-img-skills {
+	background-image: url('photo/work4.jpg');
+	background-size: cover;
+	background-position: 50% 60%;
+}
+
+.header-img-port {
+	background-image: url('photo/portfolio.jpg');
+	background-size: cover;
+	background-position: 50% 39%;
+}
+
+.header-size {
+	
+	width: 100%;
+	height: auto;	
+	overflow: hidden;
+	background-repeat: no-repeat;
+	color:#fff ;
+}
+
+
+
+
+
+.title-home h1 {
+	text-align: center;
+	font-size: 8vmax;
+	clear: both;
+	margin-bottom: 20%;
+	margin-top: 10%;
+}
+
+.carousel-caption h1 {
+	font-size: 120px;
+	font-family: 'Martel Sans', sans-serif;
+	font-weight: 200;
+}
+
+.carousel-caption h2{
+	font-size: 4em;
+	top: 45%;
+	left:0;
+	width: 100%;
+	font-family: 'Martel Sans', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	color: #fff;
+
+}
+
+.tint {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.tint a {
+	display: block;
+}
+
+.tint:hover:after {
+	content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0);
+	
+
+}
+
+.tint:after  {
+	content: ' ';
+    position: absolute;
+	left: 14px;
+    right: 14px;
+    top: 10px;
+    bottom: 10px;
+    background-color: rgba(112,43,54,.4);
+
+	
+}
+
+.caption {
+	position: absolute;
+	top: 45%;
+	left:0;
+	width: 100%;
+}
+.footer{
+	
+	text-align: center;
+	background-color: #404350;
+	color: #fff;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 1em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.footer li {
+	display: inline;
+	text-decoration: none;
+	padding: 0 5% 0 5%;
+	text-align: center;
+
+}
+
+
+.page-header figure {
+	position: relative;
+	left:0;
+	width: 100%;
+	margin: 0;
+	padding:0;
+	min-height: 250px;
+	max-height: 400px;
+	margin-bottom: 10px;
+}
+
+.page-header figure img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.page-header hgroup {
+	position: absolute;
+	width: 100%;
+	top:50%;
+	left: 0;
+	height: 240px;
+	margin-top: -120px;
+	display: block;
+	text-align: center;
+}
+
+.page-header h1, h2 {
+	/*color: #fff;*/
+	font-family: 'Martel Sans', sans-serif;
+	
+
+}
+
+/*About Me */
+
+
+.aboutme {
+	width: 100%;
+	height: auto;
+	
+}
+
+.grey {
+	
+	margin-top: 0;
+	padding-top: 30px;
+	
+}
+
+/*navbar */
+
+/*a.active {
+	border: 2px solid #d6a771;
+	padding: 5px;
+
+}*/
+
+.navbar {
+	text-align: right;
+	
+	padding-top: 2vmax;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 0px 22px 0px 22px;
+	font-family: 'Fira Sans';
+}
+
+.top-header {
+	background: linear-gradient(to top, rgba(62,34,50,0) 0%,rgba(62,34,50,1) 90%);
+}
+
+.top-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.top-header h3 {
+	margin: 2.5vmax 0 0 2vmax;
+	font-family: 'Martel Sans';
+	font-size: 2.5em;
+}
+
+.top-header li {
+	font-family: 'Fira Sans';
+	font-size: 1.5em;
+}
+
+.top-header h3, .top-header li {
+	
+	font-weight: 100;
+
+}
+
+.interests {
+	
+	height: auto;
+	overflow: hidden;
+	background-image: url('photo/flowers.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	margin-top: 10vmax;
+}	
+
+
+
+
+
+.banner {
+	width: 100%;
+	height: auto;
+	
+	background-position: 45% 54%;
+	background-size: 100%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+
+}
+
+
+.banner h1 {
+	color: #fff;
+	text-align: left;
+	margin-top: 20%;
+	padding: 0 15px 0 60px;
+	font-size: 4em;
+}
+
+.banner p {
+	color: #fff;
+	font-size: 2em;
+	padding-top: 50px;
+	padding-left: 60px;
+
+}
+
+/*skills icons*/
+
+.icon {
+	text-align: center;
+	padding: 2vmax ;
+}
+
+.container-transform {
+	transform: translate(0%,-8%);
+}
+
+.description p {
+	
+	font-size: 3em;
+
+}
+
+.description p {
+    font-size: 1.5em;
+    
+}
+
+
+/*work and skills */
+
+.skills-slider {
+	background-color: #b7c1c2; 
+	
+
+
+}
+
+.skills-page h2 {
+	
+	padding: 2vmax 0 0 0;
+}
+
+.skills-text h2 {
+	color: #fff;
+}
+
+
+.skills-text p {
+	color: #fff;
+	display: block;
+	background-color: #712a39 ;
+	padding: 10px;
+	font-family: 'Martel Sans'
+}
+
+
+
+.skills-text {
+	margin-bottom: 1vmax;
+}
+
+
+/*skills percentange */
+
+
+
