@@ -134,13 +134,13 @@ h2 {
 }
 
 .header-img-about {
-	background-image: url('photo/jenna5.jpg');
+	background-image: url('photo/aboutme-jenna.jpg');
 	background-size: cover;
 	background-position: 50% 60%;
 }
 
 .header-img-skills {
-	background-image: url('photo/work4.jpg');
+	background-image: url('photo/workskills.jpg');
 	background-size: cover;
 	background-position: 50% 60%;
 }
