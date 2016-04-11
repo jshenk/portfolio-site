@@ -423,8 +423,6 @@ h2 {
 .skills-slider {
 	background-color: #b7c1c2; 
 	
-
-
 }
 
 .skills-page h2 {
@@ -436,6 +434,28 @@ h2 {
 	color: #fff;
 }
 
+
+
+/*skills classes*/
+.html {
+	width: 90%;
+}
+
+.css {
+	width: 80%;
+}
+
+.js {
+	width: 40%;
+}
+
+.c {
+	width: 50%;
+}
+
+.mysql {
+	width: 70%;
+}
 
 .skills-text p {
 	color: #fff;
