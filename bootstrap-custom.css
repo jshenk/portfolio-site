@@ -246,10 +246,11 @@ h2 {
 	font-size: 1em;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: 20px;
 	
 }
 .footer i {
-	padding: 0 20px;
+	padding: 0 5px;
 }
 
 .page-header figure {
@@ -433,6 +434,14 @@ h2 {
 
 .skills-text h2 {
 	color: #fff;
+}
+
+.skills-text a {
+	color: #404350;
+}
+
+.skills-text a:hover {
+	color: #eee;
 }
 
 
