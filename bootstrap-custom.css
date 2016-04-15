@@ -137,6 +137,7 @@ h2 {
 .header-img-home {
 	background-image: url('photo/coffee.jpg');
 	background-position: 45% 54%;
+	background-size: cover;
 }
 
 .header-img-about {
