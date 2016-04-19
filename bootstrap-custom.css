@@ -47,7 +47,7 @@ h2 {
 
 
 .aboutme-page h1,
-.header-size h1,
+
 .portfolio-page h1 {
 	font-size: 5em;
 	padding: 15vmax 0 0 0;
@@ -542,6 +542,14 @@ h2 {
 		font-size: 3em;
 
 	}
+
+	.title-home h1 {
+		padding: 0;
+		margin: 35px 0;
+	}
+
+
+
 }
 
 
