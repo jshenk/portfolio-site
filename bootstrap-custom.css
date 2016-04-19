@@ -481,18 +481,63 @@ h2 {
 .skills-text {
 	margin-bottom: 1vmax;
 }
+
+#mobile-nav-menu {
+		display: none;
+	}
+#mobile-nav-button {
+	display: none;
+}
+
 @media (max-width: 768px) {
 
-.navbar li {
-	display: list-item;
-	list-style-type: none;
-}
+	.navbar li {
+		display: list-item;
+		list-style-type: none;
+	}
 
-.title-home h1 {
-	font-size: 3em;
-	margin-bottom: 25%;
-}
+	.navbar {
+		background-color: #404350;
+		float: right;
+		width: 50%;
+	}
 
+	.nav-close {
+		margin-top: -413px;
+	}
+
+	.nav-open {
+		margin-top: 0;
+	}
+
+	.title-home h1 {
+		font-size: 3em;
+		margin-bottom: 25%;
+	}
+
+	#mobile-nav-button {
+			display: block;
+			margin-top: 14px ;
+			float: right;
+		}
+	
+
+	.top-header h3 {
+		float: left;
+		font-size: 1.5em;
+	}
+
+	.title-home h1 {
+		font-size: 2em;
+	}
+
+	.carousel-caption h2 {
+		font-size: 2em;
+	}
+
+	.container-transform {
+		transform: none;
+	}
 }
 
 

@@ -16,3 +16,20 @@ function handler(e) {
 
   e.stopPropagation();
 }
+
+var myContactBar = document.getElementById('main-nav-menu');
+var myContactButton = document.querySelector('[href="#button"]');
+
+ myContactButton.addEventListener("click", contact, false);
+
+function contact (e) {
+
+ 	if (myContactBar.classList.contains("nav-close")) {
+    myContactBar.classList.remove("nav-close");
+    myContactBar.classList.add("nav-open");
+  }
+  else {
+    myContactBar.classList.remove("nav-open");
+    myContactBar.classList.add("nav-close");
+  }
+ }
