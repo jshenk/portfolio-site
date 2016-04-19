@@ -27,9 +27,13 @@ function contact (e) {
  	if (myContactBar.classList.contains("nav-close")) {
     myContactBar.classList.remove("nav-close");
     myContactBar.classList.add("nav-open");
+    
   }
   else {
     myContactBar.classList.remove("nav-open");
     myContactBar.classList.add("nav-close");
+   
   }
  }
+
+
