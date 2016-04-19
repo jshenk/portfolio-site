@@ -37,17 +37,15 @@ h2 {
 .pad {
 	margin-top: 2vmax;
 }
-
-
-
-
-
-
+.li-text a {
+	color: #702b36;
+	text-decoration: none;
+	display: inline-block;
+}
 
 
 
 .aboutme-page h1,
-
 .portfolio-page h1 {
 	font-size: 5em;
 	padding: 15vmax 0 0 0;
@@ -100,6 +98,10 @@ h2 {
 	border-bottom: 1px solid;
 	padding: 0 0 1vmax 0;
 
+}
+
+.port-container ul {
+	font-size: 1.5em;
 }
 
 .btn-purple {
@@ -249,6 +251,7 @@ h2 {
 }
 .footer i {
 	padding: 0 5px;
+	color: #fff;
 }
 
 .page-header figure {
@@ -547,9 +550,26 @@ h2 {
 		padding: 0;
 		margin: 35px 0;
 	}
+	
+	.description {
+		margin-top: 20px;
+	}
+	
+	.aboutme-page h2 {
+		font-size: 2em;
+	}
 
+	#su:checked ~ .panels #su-panel, 
+	#mc:checked ~ .panels #mc-panel,
+	#wmx:checked ~ .panels #webmechanix-panel,
+	#teltek:checked ~ .panels #teltek-panel, 
+	#stevenson:checked ~ .panels #stevenson-panel  {
+		padding-left: 0;
+	}
 
-
+	.skills-text a {
+		display: block;
+	}
 }
 
 
