@@ -42,16 +42,13 @@ h2 {
 
 
 
+
+
+
+
+.aboutme-page h1,
+.header-size h1,
 .portfolio-page h1 {
-	font-size: 5em;
-	padding: 15vmax 0 0 0;
-	margin-left: 2vmax;
-	font-weight: 100;
-}
-
-
-
-.aboutme-page h1 {
 	font-size: 5em;
 	padding: 15vmax 0 0 0;
 	margin-left: 2vmax;
@@ -507,7 +504,7 @@ h2 {
 	}
 
 	.nav-open {
-		margin-top: 0;
+		margin: 0 12px;
 	}
 
 	.title-home h1 {
@@ -537,6 +534,13 @@ h2 {
 
 	.container-transform {
 		transform: none;
+	}
+
+	.aboutme-page h1,
+	.header-size h1,
+	.portfolio-page h1 {
+		font-size: 3em;
+
 	}
 }
 
