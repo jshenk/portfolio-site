@@ -72,8 +72,8 @@ h2 {
 }
 
 .fa-5x {
-	font-size: 8em;
-	padding: 10px;
+	font-size: 6em;
+	padding: 0 10px;
 }
 
 .no-padding{ 
@@ -103,9 +103,11 @@ h2 {
     top: 0;
     bottom: 0;
     background-color: rgba(64, 67, 80, .7);
+    transition: all .5s ease-in-out;
 
-  
-}
+ }
+
+
 
 .skills-block ul{
 	opacity: 0;
@@ -146,17 +148,16 @@ h2 {
 }
 
 .btn-purple {
-	/*background-color:  rgba(62,34,50,.6);*/
-	background-color: #404350;
+	
+	background-color: rgba(112,43,54,1);
 	color: #fff;
+	border-radius: 0;
 }
 
-.btn-purple:hover {
-	background-color: 
-}
+
 
 .btn:hover{
-	background-color: rgba(64,67,80, .8) ;
+	background-color: rgba(112,43,54,.5) ;
 	color: #fff;
 }
 
@@ -215,10 +216,13 @@ h2 {
 	text-align: center;
 	font-size: 8vmax;
 	clear: both;
-	margin-bottom: 10%;
-	margin-top: 10%;
+	font-family: 'againtsregular';
 }
 
+.title-home {
+	margin-bottom: 5%;
+	
+}
 .carousel-caption h1 {
 	font-size: 120px;
 	font-family: 'Martel Sans', sans-serif;
@@ -251,12 +255,12 @@ h2 {
 .tint:hover:after {
 	content: ' ';
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    left: 14px;
+    right: 14px;
+    top: 10px;
+    bottom: 10px;
     background-color: rgba(0,0,0,0);
-
+	transition: all .5s ease-out 0.1s;
 	
 
 }
@@ -269,6 +273,7 @@ h2 {
     top: 10px;
     bottom: 10px;
     background-color: rgba(112,43,54,.4);
+    transition: all .5s ease-out 0.1s;
 
 	
 }
@@ -279,17 +284,20 @@ h2 {
 	left:0;
 	width: 100%;
 }
-.footer{
+.footer {
 	
 	text-align: center;
 	background-color: #404350;
 	color: #fff;
-	font-family: 'Martel Sans', sans-serif;
-	font-size: 1em;
+	
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	
+}
+.footer p {
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 1em;
 }
 .footer i {
 	padding: 0 5px;
@@ -452,13 +460,8 @@ h2 {
 }
 
 .description p {
-	
-	font-size: 3em;
+    font-size: 1.3em;
 
-}
-
-.description p {
-    font-size: 1.5em;
     
 }
 
@@ -522,14 +525,15 @@ h2 {
 	color: #fff;
 	display: block;
 	background-color: #712a39 ;
-	padding: 10px;
-	font-family: 'Martel Sans'
+	padding: 5px 10px;
+	font-family: 'Martel Sans';
+	font-size: 1.2em;
 }
 
 
 
 .skills-text {
-	margin-bottom: 1vmax;
+	margin-bottom: 4vmax;
 }
 
 #mobile-nav-menu {
@@ -566,10 +570,7 @@ h2 {
 		margin: 0 12px;
 	}
 
-	.title-home h1 {
-		font-size: 3em;
-		margin-bottom: 25%;
-	}
+	
 
 	#mobile-nav-button {
 			display: block;
@@ -583,9 +584,7 @@ h2 {
 		font-size: 1.5em;
 	}
 
-	.title-home h1 {
-		font-size: 2em;
-	}
+	
 
 	.carousel-caption h2 {
 		font-size: 2em;
@@ -602,10 +601,6 @@ h2 {
 
 	}
 
-	.title-home h1 {
-		padding: 0;
-		margin: 35px 0;
-	}
 	
 	.description {
 		margin-top: 20px;

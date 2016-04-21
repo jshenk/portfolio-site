@@ -23,7 +23,8 @@ label {
 
 
 
-.radio-tabs li, p {
+.radio-tabs li,
+.radio-tabs p {
     font-size: 1.5em;
     font-family:'Fira Sans' ;
 }
