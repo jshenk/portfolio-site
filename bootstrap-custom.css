@@ -471,8 +471,16 @@ h2 {
 }
 
 .skills-page h2 {
-	
-	padding: 2vmax 0 0 0;
+	font-size: 2.827em;
+	padding: 2vmax 0;
+}
+
+.skills-page h3 {
+	font-size: 1.8em;
+}
+
+.skills-page h4 {
+	font-size: 1.414em;
 }
 
 .skills-text h2 {

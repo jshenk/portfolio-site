@@ -1,33 +1,17 @@
  
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    
-    background-color: #ddd;
-}
 
-/* Android 2.3 :checked fix */
-@keyframes fake {
-    from {
-        opacity: 1;
-    }
-    to {
-        opactity: 1
-    }
-}
-body {        
-    animation: fake 1s infinite;
-}
+
+
 
 label {
-    font-weight: normal;
+    font-weight: 400;
 }
 
 
 
-.radio-tabs h6 {
+.radio-tabs h3 {
     color: #702b36;
-    font-size: 2em;
+    font-size: 1.999em;
     font-family: 'Martel Sans';
 }
 
@@ -45,7 +29,7 @@ label {
 }
 
 .radio-tabs {
-    margin: 3vmax;
+    margin: 0;
 
 }
 
