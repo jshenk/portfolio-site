@@ -43,6 +43,10 @@ h2 {
 	display: inline-block;
 }
 
+.li-text a:hover {
+	text-decoration: underline;
+}
+
 
 
 .aboutme-page h1,
@@ -72,12 +76,49 @@ h2 {
 	padding: 10px;
 }
 
+.no-padding{ 
+	margin: 0;
+	padding: 0;
+
+ }
+
 .skills-page {
 	background-color: #fff;
 	font-family: 'Martel Sans';
 
 }
+.skills-caption {
+	position: absolute;
+	top: 0;		
+	background-color: rgba(214, 167, 113, .8);
+	width: 100%;
+	padding: 0 10px;
+}
 
+.skills-block:hover:before {
+	content: ' ';
+    position: absolute;
+	left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(64, 67, 80, .7);
+
+  
+}
+
+.skills-block ul{
+	opacity: 0;
+	position: absolute;
+	top: 35%;
+	font-size: 1.4em;
+	color: #fff;
+
+}
+
+.skills-block ul:hover {
+	opacity: 1;
+}
 .navimg {
 	width: 100%;
 	overflow: hidden;
@@ -215,6 +256,7 @@ h2 {
     top: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0);
+
 	
 
 }
