@@ -52,19 +52,19 @@ label {
     padding: .5em;
     vertical-align: top;
     color: #702b36 ;
-    cursor: hand;
-    cursor: pointer;
+    
+    background-color: #eee;
 }
 .radio-tabs .tab:hover {
-    background-color: #eee;
+    background-color: #b7c1c2;
 }
 
 #su:checked ~ .tabs #su-tab,
 #mc:checked ~ .tabs #mc-tab
  {
-    background-color: #b7c1c2;
-    border-bottom: .3em solid #fff;
-    cursor: default;
+    background-color: #fff;
+    border: 1px solid;
+    border-bottom: 0;
 }
 
 .radio-tabs .panels {
@@ -84,6 +84,9 @@ label {
     display: block;
 }
 
+.panel {
+    border: none;
+}
 
 
 
@@ -94,9 +97,10 @@ label {
 #stevenson:checked ~ .tabs #stevenson-tab,
 #wmx:checked ~ .tabs #wmx-tab
  {
-    background-color: #b7c1c2;
-    border-bottom: .3em solid #fff;
-    cursor: default;
+    background-color: #fff;
+    border: 1px solid;
+    border-bottom: 0;
+  
 }
 
 #teltek:checked ~ .panels #teltek-panel,
