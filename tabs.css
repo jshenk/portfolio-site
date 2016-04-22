@@ -11,13 +11,14 @@ label {
 
 .radio-tabs h3 {
     color: #702b36;
-    font-size: 1.999em;
+    font-size: 1.7em;
     font-family: 'Martel Sans';
+    font-style: italic;
 }
 
 .radio-tabs h5 {
     font-size: 4em;
-    color: #702b36;
+    color: #d6a771;
     
 }
 
