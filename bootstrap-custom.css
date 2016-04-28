@@ -164,6 +164,8 @@ h2 {
 .port-container h2 {
 	border-bottom: 1px solid;
 	padding: 0 0 1vmax 0;
+	line-height: 1.5em;
+	margin-top: 0;
 
 }
 
@@ -173,15 +175,16 @@ h2 {
 
 .btn-purple {
 	
-	background-color: rgba(112,43,54,1);
-	color: #fff;
+	border: 3px solid rgba(112,43,54,1);
+	color: rgba(112,43,54,1);
 	border-radius: 0;
+	background-color: #fff;
 }
 
 
 
 .btn:hover{
-	background-color: rgba(112,43,54,.5) ;
+	background-color: rgba(112,43,54,1) ;
 	color: #fff;
 }
 
