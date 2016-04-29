@@ -37,15 +37,7 @@ h2 {
 .pad {
 	margin-top: 2vmax;
 }
-.li-text a {
-	color: #702b36;
-	text-decoration: none;
-	display: inline-block;
-}
 
-.li-text a:hover {
-	text-decoration: underline;
-}
 
 
 
@@ -93,6 +85,33 @@ h2 {
 	background-color: rgba(214, 167, 113, .8);
 	width: 100%;
 	padding: 0 10px;
+}
+
+.port-block:before {
+	content: ' ';
+    position: absolute;
+	left: 15px;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    transition: all .5s ease-out 0.1s;
+    background-color: rgba(64, 67, 80, 0);
+}
+
+.port-block:hover:before {
+	content: ' View Live';
+    position: absolute;
+	left: 15px;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    transition: all .5s ease-out 0.1s;
+    background-color: rgba(64, 67, 80, .7);
+    text-align: center;
+    font-size: 4em;
+    padding: 100px 30px;
+    color: #fff;
+
 }
 
 .skills-block:before {
@@ -159,6 +178,11 @@ h2 {
 .port-container img {
 	margin: auto;
 
+}
+
+.img-split {
+	width: 50%;
+	float: right;
 }
 
 .port-container h2 {
