@@ -256,6 +256,8 @@ h2 {
 	font-size: 8vmax;
 	clear: both;
 	font-family: 'againtsregular';
+	word-spacing: 75px;
+	padding: 75px 0;
 }
 
 .title-home {
@@ -595,6 +597,8 @@ h2 {
 	}
 
 @media (max-width: 768px) {
+
+	
 	.close-button {
 		display: block;
 	}
@@ -667,6 +671,11 @@ h2 {
 
 	.skills-text a {
 		display: block;
+	}
+
+	.title-home h1 {
+		word-spacing: 10px;
+		font-size: 4em;
 	}
 }
 
