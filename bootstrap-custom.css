@@ -197,19 +197,7 @@ h2 {
 	font-size: 1.5em;
 }
 
-.btn-purple {
-	
-	border: 3px solid rgba(112,43,54,1);
-	color: rgba(112,43,54,1);
-	border-radius: 0;
-	background-color: #fff;
-}
 
-
-
-.btn:hover{
-	background-color: rgba(112,43,54,1) ;
-	color: #fff}
 
 
 
@@ -521,6 +509,11 @@ h2 {
 
 
 /*work and skills */
+
+.li-text a {
+	color: #702b36;
+	text-decoration: none;
+}
 
 .skills-slider {
 	background-color: #b7c1c2; 
