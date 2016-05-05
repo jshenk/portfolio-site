@@ -187,29 +187,29 @@
           <h2>Say Hello</h2>
       </div>
 
-  <form action="https://formspree.io/jslynne@gmail.com" method="post">
+  <form id="contactForm" method="post">
       <div class="col-md-6">
                 <fieldset>
                   
-                  <textarea placeholder="What do you want to chat about?" tabindex="10" name="message"></textarea>               
+                  <textarea placeholder="What do you want to chat about?" tabindex="10" name="message" required></textarea>               
                 </fieldset>
               </div>
               <div class="col-md-6">
                 <fieldset>
                   
-                  <input type="email" placeholder="Your Email" name="email"> 
+                  <input type="email" placeholder="Your Email" name="email" required> 
                 </fieldset>
                 <fieldset>
                   
-                  <input type="text" placeholder="Name" name="name">
+                  <input type="text" placeholder="Name" name="name" required>
 
                 </fieldset>
+                <fieldset>
+                  <input class="submit-button" type="submit" value="Send Message">
+                  <input type="hidden" name="_next" value="portfolio.html" />
+                </fieldset>
       </div>
-      <div class="col-md-12">
-        <input type="submit" value="send">
-        <input type="hidden" name="_next" value="portfolio.html" />
-        
-      </div>
+      
   </form>
 
       </div>
@@ -232,6 +232,11 @@
 </div> 
 
 <script src="js/navbar.js"></script>
+<script>
+    var contactform =  document.getElementById('contactForm');
+    contactform.setAttribute('action', '//formspree.io/' + 'jslynne' + '@' + 'gmail' + '.' + 'com');
+</script>
+
   </body>
 </html>
 

@@ -622,7 +622,21 @@ input {
 }
 
 textarea {
-	height: 106px;
+	height: 178px;
+}
+
+.submit-button {
+	
+
+}
+
+input[type="submit"] {
+	background-color: #fff;
+	border: 0;
+	font-size: 1.5em;
+	width: 50%;
+	font-family: 'Martel Sans';
+	color: gray;
 }
 
 @media (max-width: 768px) {
