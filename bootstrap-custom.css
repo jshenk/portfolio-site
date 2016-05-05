@@ -597,6 +597,34 @@ h2 {
 		display: none;
 	}
 
+/*Contact form*/
+
+.contact-form h2 {
+	text-align: center;
+	border: none;
+	font-size: 50px;
+	color: #fff;
+
+}
+
+.contact-form {
+	background-color: #b9c1c5;
+}
+
+textarea, input {
+	width: 100%;
+	padding: 10px;
+}
+
+input {
+	
+	margin-bottom: 18px;
+}
+
+textarea {
+	height: 106px;
+}
+
 @media (max-width: 768px) {
 
 	
