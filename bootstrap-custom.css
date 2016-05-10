@@ -516,6 +516,11 @@ h2 {
 .li-text a {
 	color: #702b36;
 	text-decoration: none;
+	font-weight: bold;
+}
+
+.li-text a:hover {
+	text-decoration: underline;
 }
 
 .skills-slider {
