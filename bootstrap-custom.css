@@ -172,8 +172,12 @@ h2 {
 .port-container {
 	margin-top: 5vmax;
 	margin-bottom: 5vmax;
-	
+
 } 
+
+.port-container li {
+	font-family: 'Fira Sans';
+}
 
 .port-container img {
 	margin: auto;
