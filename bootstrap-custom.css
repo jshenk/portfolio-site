@@ -532,6 +532,23 @@ h2 {
 	
 }
 
+.skills h3, 
+.skills h2 {
+	color: #fff;
+}
+
+.skills a {
+	color: #404350;
+}
+
+.skills a:hover {
+	color: #fff;
+}
+
+.skills p {
+	font-size: 1.2em;
+}
+
 .skills-page h2 {
 	font-size: 2.827em;
 	padding: 2vmax 0;
@@ -543,6 +560,7 @@ h2 {
 
 .skills-page h4 {
 	font-size: 1.414em;
+	
 }
 
 .skills-text h2 {
@@ -555,6 +573,11 @@ h2 {
 
 .skills-text a:hover {
 	color: #eee;
+}
+
+.skills-col-right p {
+	background-color: inherit !important;
+	padding: 0 !importa;
 }
 
 
