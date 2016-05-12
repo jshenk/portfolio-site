@@ -754,6 +754,42 @@ input[type="submit"] {
 		word-spacing: 10px;
 		font-size: 4em;
 	}
+	.skills-block ul {
+			font-size: 1.3em;
+			opacity: 1;
+			padding: 19px 0 0 45px;
+			transition-property: none;
+			margin-bottom: 10px;
+
+	}
+
+	.skills-page h3 {
+			font-size: 1.5em;
+	}
+
+	.skills-block:before {
+		content: '';
+	    position: absolute;
+		left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    transition-property: none;
+	    background-color: rgba(64, 67, 80, .7);
+	    
+	 }
+
+	 .skills-caption {
+	 	font-size: 12px;
+	 }
+
+	 .ranch-mobile {
+	 	height: 370px;
+	 }
+	 .larger-ul ul {
+	 	width: 100%;
+	 	padding-top: 0;
+	 }
 }
 
 
