@@ -765,6 +765,7 @@ input[type="submit"] {
 
 	.skills-page h3 {
 			font-size: 1.5em;
+			font-weight: bold;
 	}
 
 	.skills-block:before {
@@ -784,11 +785,11 @@ input[type="submit"] {
 	 }
 
 	 .ranch-mobile {
-	 	height: 370px;
+	 	height: 310px;
 	 }
 	 .larger-ul ul {
 	 	width: 100%;
-	 	padding-top: 0;
+	 	padding-top: 10px;
 	 }
 }
 
