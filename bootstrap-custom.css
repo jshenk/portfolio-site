@@ -42,12 +42,15 @@ h2 {
 
 
 .aboutme-page h1,
-.portfolio-page h1 {
-	font-size: 5em;
-	padding: 15vmax 0 0 0;
-	margin-left: 2vmax;
+.portfolio-page h1,
+.skills-page h1 {
+	font-size: 65px;
+	margin: 15vmax 3vmax 1vmax 2vmax;
+	padding: 16px;
 	font-weight: 100;
-
+	border: 5px solid #fff;
+	float: left;
+	
 }
 
 .aboutme-page h2 {
@@ -56,12 +59,6 @@ h2 {
 	margin-top: 0;
 }
 
-.skills-page h1 {
-	font-size: 5em;
-	padding: 15vmax 0 0 0;
-	margin-left: 2vmax;
-	font-weight: 100;
-}
 
 .fa-5x {
 	font-size: 6em;
@@ -728,6 +725,7 @@ input[type="submit"] {
 	.portfolio-page h1 {
 		font-size: 3em;
 
+
 	}
 
 	
@@ -799,6 +797,22 @@ input[type="submit"] {
 		padding: 5px;
 
 	 }
+
+	 .aboutme-page h1,
+	 .portfolio-page h1,
+	 .skills-page h1 {
+				
+		border: none;
+		padding-left: 0;
+		
+	}
+
+	.portfolio-page h1 {
+		background-color: rgba(64, 67, 80, .5);
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+	}
 }
 
 
