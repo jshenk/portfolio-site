@@ -183,6 +183,26 @@ h2 {
 
 }
 
+.port-intro a {
+	color: #fff;
+}
+
+.port-intro ul li {
+	font-family: 'Fira Sans';
+    font-size: 1.5em;
+}
+
+.port-intro h2 {
+	padding-top: 20px;
+	color: #fff;
+	font-size: 3em;
+}
+
+.port-intro { 
+	background-color: #d6a771;
+	color: #fff;
+	padding-bottom: 20px;
+ }
 .img-split {
 	width: 50%;
 	float: right;
@@ -526,6 +546,9 @@ h2 {
 	text-decoration: underline;
 }
 
+.li-text p {
+	padding-left: 15px;
+}
 .skills-slider {
 	background-color: #b7c1c2; 
 	
