@@ -695,7 +695,10 @@ input[type="submit"] {
 
 @media (max-width: 768px) {
 
-	
+	.img-split {
+		width: 100%;
+		height: auto;
+	}
 	.close-button {
 		display: block;
 	}
