@@ -16,9 +16,7 @@ p {
 	font-family: 'Fira Sans';
 	font-size: 1.5em;
 }
-h2 {
-    color: #3e2232;
-}
+
 
 
 
@@ -85,19 +83,38 @@ h2 {
 
 }
 
-.port-block:before {
+.port-block:hover:before {
 	content: ' ';
     position: absolute;
 	left: 15px;
     right: 15px;
     top: 0;
-    bottom: 0;
+    bottom: 20px;
     transition: all .5s ease-out 0.1s;
-    background-color: rgba(64, 67, 80, 0);
+    background-color: rgba(64, 67, 80, .7);
 }
 
-.port-block:hover:before {
-	content: ' View Live';
+.port-caption {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: #fff;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 73%;
+    transition: all .5s ease-out 0.1s;
+
+}
+
+.port-caption:hover {
+	opacity: 1;
+}
+
+
+
+/*.port-block:hover:before {
+	content: '';
     position: absolute;
 	left: 15px;
     right: 15px;
@@ -110,7 +127,7 @@ h2 {
     padding: 100px 30px;
     color: #fff;
 
-}
+}*/
 
 .skills-block:before {
 	content: ' ';
@@ -168,19 +185,24 @@ h2 {
 	overflow: hidden;
 
 }
-.port-container {
-	margin-top: 5vmax;
-	margin-bottom: 5vmax;
 
-} 
 
 .port-container li {
 	font-family: 'Fira Sans';
 }
 
 .port-container img {
-	margin: auto;
+	margin-bottom: 20px;
 
+}
+
+.port-container button {
+	margin-bottom: 30px;
+
+}
+
+.port-container {
+	text-align: center;
 }
 
 .port-intro a {
@@ -192,29 +214,20 @@ h2 {
     font-size: 1.5em;
 }
 
-.port-intro h2 {
-	padding-top: 20px;
-	color: #fff;
-	font-size: 3em;
-}
+
 
 .port-intro { 
 	background-color: #d6a771;
 	color: #fff;
 	padding-bottom: 20px;
+	margin-bottom: 20px;
  }
 .img-split {
 	width: 50%;
 	float: right;
 }
 
-.port-container h2 {
-	border-bottom: 1px solid;
-	padding: 0 0 1vmax 0;
-	line-height: 1.5em;
-	margin-top: 0;
 
-}
 
 .port-container ul {
 	font-size: 1.5em;
@@ -679,10 +692,6 @@ textarea {
 	height: 178px;
 }
 
-.submit-button {
-	
-
-}
 
 input[type="submit"] {
 	background-color: #fff;
@@ -841,5 +850,57 @@ input[type="submit"] {
 	}
 }
 
+
+/*Modal */
+
+
+
+.port-modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	background-color: #fff;
+	margin: 5% auto;
+	padding: 20px;
+	border: 20px solid #712a39;
+	width: 40%;
+	text-align: left;
+
+}
+.modal-content div {
+	background-color: #fff;
+	padding: 20px;
+	color: black;
+}
+
+.close-modal {
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.display {
+	display: block;
+}
+
+/*Button*/
+
+#modalButton,
+#modalButton:focus {
+	background-color: #d6a771;
+    color: #fff;
+    border: none;
+    font-size: 2em;
+    padding: 10px 60px;
+    outline: none;
+}
 
 

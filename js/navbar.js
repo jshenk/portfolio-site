@@ -36,4 +36,18 @@ function contact (e) {
   }
  }
 
+// Variables Modal, Button, Close
 
+  var modal = document.getElementById('modal');
+  var button = document.getElementById('modalButton');
+  var close = document.getElementsByClassName('close-modal')[0];
+
+// Open modal with (this)
+  function openModal(box) {
+    $(box).next().addClass("display");
+  }
+// To close the modal 
+
+  close.onclick = function() {
+    modal.style.display = "none";
+  }
